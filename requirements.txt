@@ -1,0 +1,11 @@
+# Core (all free, open-source)
+streamlit>=1.40
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11
+plotly>=5.20
+yfinance>=0.2.40
+requests>=2.31
+# Testing
+pytest>=8.0
+tabulate>=0.9    # markdown tables in scripts/generate_report.py

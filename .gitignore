@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/database/*
+!data/database/.gitkeep
+.pytest_cache/
+*.log
+.DS_Store
+Thumbs.db
+# secrets (none are required; ignored in case they are added)
+.env
+*.env
+.streamlit/secrets.toml
